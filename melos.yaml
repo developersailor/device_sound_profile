@@ -1,4 +1,5 @@
 name: device_sound_profile_plugin
+repository: https://github.com/developersailor/device_sound_profile_plugin
 packages:
   - device_sound_profile
   - device_sound_profile_ios
