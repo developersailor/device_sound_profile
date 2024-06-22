@@ -8,6 +8,9 @@ packages:
 scripts:
   analyze:
     exec: dart analyze .
+  build:
+    exec: dart run build_runner build --delete-conflicting-outputs
+  prepare: melos bootstrap && melos run build
 
 ide:
   intellij:
