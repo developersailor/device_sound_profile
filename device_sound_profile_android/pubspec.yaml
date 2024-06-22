@@ -1,0 +1,28 @@
+name: device_sound_profile_android
+description: Android implementation of the device_sound_profile plugin
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.4.0
+
+flutter:
+  plugin:
+    implements: device_sound_profile
+    platforms:
+      android:
+        package: com.example.verygoodcore
+        pluginClass: DeviceSoundProfilePlugin
+        dartPluginClass: DeviceSoundProfileAndroid
+
+dependencies:
+  flutter:
+    sdk: flutter
+  device_sound_profile_platform_interface:
+    path: ../device_sound_profile_platform_interface
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  plugin_platform_interface: ^2.1.8
+  very_good_analysis: ^5.1.0

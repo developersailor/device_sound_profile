@@ -1,0 +1,27 @@
+version: 2
+enable-beta-ecosystems: true
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/device_sound_profile"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/device_sound_profile/example"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/device_sound_profile_platform_interface"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/device_sound_profile_android"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/device_sound_profile_ios"
+    schedule:
+      interval: "daily"
