@@ -33,7 +33,6 @@ jobs:
       flutter_version: 3.22.0
       working_directory: device_sound_profile
 
-
   android:
     runs-on: macos-latest
 
