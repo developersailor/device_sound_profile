@@ -1,0 +1,9 @@
+name: device_sound_profile_plugin
+packages:
+  - device_sound_profile
+  - device_sound_profile_ios
+  - device_sound_profile_android
+  - device_sound_profile_platform_interface
+scripts:
+  analyze:
+    exec: dart analyze .

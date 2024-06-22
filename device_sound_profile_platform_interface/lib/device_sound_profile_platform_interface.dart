@@ -14,7 +14,8 @@ abstract class DeviceSoundProfilePlatform extends PlatformInterface {
 
   static final Object _token = Object();
 
-  static DeviceSoundProfilePlatform _instance = MethodChannelDeviceSoundProfile();
+  static DeviceSoundProfilePlatform _instance =
+      MethodChannelDeviceSoundProfile();
 
   /// The default instance of [DeviceSoundProfilePlatform] to use.
   ///

@@ -16,7 +16,8 @@ void main() {
 
       log = <MethodCall>[];
       TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
-          .setMockMethodCallHandler(deviceSoundProfile.methodChannel, (methodCall) async {
+          .setMockMethodCallHandler(deviceSoundProfile.methodChannel,
+              (methodCall) async {
         log.add(methodCall);
         switch (methodCall.method) {
           case 'getPlatformName':

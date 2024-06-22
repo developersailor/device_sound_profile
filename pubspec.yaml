@@ -1,0 +1,17 @@
+name: device_sound_profile_plugin
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=1.2.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  device_sound_profile:
+    path: ./device_sound_profile
+  device_sound_profile_ios:
+    path: ./device_sound_profile_ios
+  device_sound_profile_android:
+    path: ./device_sound_profile_android
+  device_sound_profile_platform_interface:
+    path: ./device_sound_profile_platform_interface
+dev_dependencies:
+  melos: ^6.1.0

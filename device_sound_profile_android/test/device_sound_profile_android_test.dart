@@ -16,7 +16,8 @@ void main() {
 
       log = <MethodCall>[];
       TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
-          .setMockMethodCallHandler(deviceSoundProfile.methodChannel, (methodCall) async {
+          .setMockMethodCallHandler(deviceSoundProfile.methodChannel,
+              (methodCall) async {
         log.add(methodCall);
         switch (methodCall.method) {
           case 'getPlatformName':
@@ -29,7 +30,8 @@ void main() {
 
     test('can be registered', () {
       DeviceSoundProfileAndroid.registerWith();
-      expect(DeviceSoundProfilePlatform.instance, isA<DeviceSoundProfileAndroid>());
+      expect(DeviceSoundProfilePlatform.instance,
+          isA<DeviceSoundProfileAndroid>());
     });
 
     test('getPlatformName returns correct name', () async {
