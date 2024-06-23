@@ -1,4 +1,4 @@
-package com.example.verygoodcore
+package com.fiskindal.devicesoundprofileandroid
 
 import androidx.annotation.NonNull
 
