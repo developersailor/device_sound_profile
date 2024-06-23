@@ -11,6 +11,7 @@ flutter:
     implements: device_sound_profile
     platforms:
       ios:
+        package: com.fiskindal.devicesoundprofile
         pluginClass: DeviceSoundProfilePlugin
         dartPluginClass: DeviceSoundProfileIOS
 
