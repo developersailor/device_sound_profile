@@ -1,4 +1,4 @@
-group 'com.example.verygoodcore'
+group 'com.fiskindal.devicesoundprofileandroid'
 version '1.0-SNAPSHOT'
 
 buildscript {
