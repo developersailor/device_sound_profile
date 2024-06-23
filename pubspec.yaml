@@ -13,6 +13,7 @@ dependencies:
     path: ./device_sound_profile_android
   device_sound_profile_platform_interface:
     path: ./device_sound_profile_platform_interface
+  permission_handler: ^11.3.1
 dev_dependencies:
   melos: ^6.1.0
   very_good_analysis: ^5.1.0
