@@ -6,13 +6,16 @@ packages:
   - device_sound_profile_android
   - device_sound_profile_platform_interface
 scripts:
+  prepare: melos bootstrap && melos run build
   analyze:
     exec: dart analyze .
   format:
     exec: dart format .
   build:
     exec: dart run build_runner build --delete-conflicting-outputs
-  prepare: melos bootstrap && melos run build
+  start:
+    exec: flutter run device_sound_profile_plugin/device_sound_profile/example/lib/main.dart
+
 
 ide:
   intellij:

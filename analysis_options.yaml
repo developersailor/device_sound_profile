@@ -1,0 +1,12 @@
+include: package:very_good_analysis/analysis_options.yaml
+analyzer:
+  exclude:
+    - "**/ios/**"
+    - "**/android/**"
+    - "**/example/**"
+    - "**/test/**"
+    - "**/build/**"
+    - "**/lib/device_sound_profile.dart"
+    - "**/lib/device_sound_profile_platform_interface.dart"
+    - "**/lib/device_sound_profile_android.dart"
+    - "**/lib/device_sound_profile_ios.dart"
