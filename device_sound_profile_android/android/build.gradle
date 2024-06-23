@@ -1,4 +1,4 @@
-group 'com.fiskindal.devicesoundprofileandroid'
+group 'com.fiskindal.devicesoundprofile'
 version '1.0-SNAPSHOT'
 
 buildscript {

@@ -1,4 +1,4 @@
-package com.fiskindal.devicesoundprofileandroid
+package com.fiskindal.devicesoundprofile
 
 import androidx.annotation.NonNull
 
